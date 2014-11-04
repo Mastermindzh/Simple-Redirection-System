@@ -1,0 +1,146 @@
+body {
+	overflow-x: hidden;
+	text-align: center;
+	background-color: #242424;
+}
+ul.guide li{ margin:0 20px 20px 0; vertical-align:top}
+h2{
+	margin-left:15px;
+
+}
+.footer p{
+	width:100%;
+	text-align:center;
+}
+a{
+	color: #BD2121;
+}
+.box{
+	margin: auto;
+	padding: 10px;
+	width:85%;
+	max-width:100%;
+}
+.success{
+	border: 1px solid #4A8320;
+	background-color: #75C03E;
+}
+.error{
+	border: 1px solid #AD1A00;
+	background-color: #FF6347;
+}
+.warning{
+	border: 1px solid #DEA300;
+	background-color: #DEC500;
+}
+
+#mainForm {
+	position: relative;
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: left;
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 5px solid #AC1717;
+}
+
+ul.mainForm{
+	list-style-type: none;
+	font-family: Tahoma, Arial, Verdana, sans-serif;
+	font-size:15px;
+}
+
+li.mainForm{
+	padding-bottom: 10px;
+}
+
+#formHeader{
+	position: relative;
+	width: 100%;
+	background-color: #AC1717;
+	margin:0px;
+	padding-bottom: 10px;
+}
+
+p.formHeader{
+	text-align: right;
+	margin:0 0 0 0;
+	font-family: Tahoma, Arial, Verdana, sans-serif;
+	font-weight:normal;
+	color: #ffffff;
+	font-size:25px;
+	position:relative;
+	left:-5px;
+	top:4px;
+	letter-spacing: 2px;
+}
+
+#formInfo{
+	position: relative;
+	width: 100%;
+	background-color: #ffffff;
+	margin:0 0 0 0;
+}
+
+h2.formInfo{
+	text-align: left;
+	margin:0 0 0 0;
+	font-family: Tahoma, Arial, Verdana, sans-serif;
+	font-weight:normal;
+	font-size:20px;
+	position:relative;
+	left:20px;
+	top:0px;
+	letter-spacing: 1px;
+	line-height:150%;
+	color: #ffffff;
+}
+
+
+p.formInfo{
+	text-align: left;
+	margin:0 0 0 0;
+	font-family: Tahoma, Arial, Verdana, sans-serif;
+	font-weight:normal;
+	color: #000000;
+	font-size:12px;
+	position:relative;
+	left:20px;
+	top:0px;
+	color: #ffffff;
+}
+
+#formFields{
+	position: relative;
+	width: 100%;
+	background-color: #ffffff;
+	margin:0 0 0 0;
+
+}
+
+label.formFieldQuestion{
+	line-height:125%;
+	border:none;
+	display:block;
+	font-size:95%;
+	font-weight:bold;
+}
+
+label.formFieldOption{
+	font-size:90%;
+	display:block;
+	line-height:1.0em;
+	margin:-19px 0 0 25px;
+	width:90%;
+}
+
+input.formFieldStyle{
+	display:block;
+	line-height:1.4em;
+	margin:8px 0 0 3px;
+	width:13px;
+	height:13px;
+}
+.mainFormError{
+	background-color : #ff4444;
+}

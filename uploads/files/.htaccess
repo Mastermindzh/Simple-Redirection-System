@@ -1,0 +1,65 @@
+# ENABLE INDEXING
+Options +Indexes
+
+# INDEX OPTIONS
+IndexOptions +Charset=UTF-8 +FancyIndexing +IgnoreCase +FoldersFirst +XHTML +HTMLTable +SuppressRules +SuppressDescription +NameWidth=* +IconsAreLinks
+
+# META VIEWPORT
+IndexHeadInsert "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+
+# HIDE /theme DIRECTORY
+IndexIgnore .htaccess /theme
+
+# GENERAL ICONS (BLANK, DIRECTORY, PARENT DIRECTORY)
+
+	AddIcon /img/theme/icons/blank.png ^^BLANKICON^^
+	AddIcon /img/theme/icons/folder.png ^^DIRECTORY^^
+	AddIcon /img/theme/icons/folder-home.png ..
+	
+# EXTENSION SPECIFIC ICONS
+	AddIcon /img/theme/icons/archive.png .7z .bz2 .cab .gz .tar
+	AddIcon /img/theme/icons/audio.png .aac .aif .aifc .aiff .ape .au .flac .iff .m4a .mid .mp3 .mpa .ra .wav .wma .f4a .f4b .oga .ogg .xm .it .s3m .mod
+	AddIcon /img/theme/icons/bin.png .bin .hex
+	AddIcon /img/theme/icons/bmp.png .bmp
+	AddIcon /img/theme/icons/c.png .c
+	AddIcon /img/theme/icons/calc.png .xlsx .xlsm .xltx .xltm .xlam .xlr .xls .csv
+	AddIcon /img/theme/icons/cpp.png .cpp
+	AddIcon /img/theme/icons/css.png .css .sass .scss
+	AddIcon /img/theme/icons/deb.png .deb
+	AddIcon /img/theme/icons/doc.png .doc .docx .docm .dot .dotx .dotm .log .msg .odt .pages .rtf .tex .wpd .wps
+	AddIcon /img/theme/icons/draw.png .svg .svgz
+	AddIcon /img/theme/icons/eps.png .ai .eps
+	AddIcon /img/theme/icons/exe.png .exe
+	AddIcon /img/theme/icons/gif.png .gif
+	AddIcon /img/theme/icons/h.png .h
+	AddIcon /img/theme/icons/html.png .html .xhtml .shtml .htm .URL .url
+	AddIcon /img/theme/icons/ico.png .ico
+	AddIcon /img/theme/icons/java.png .jar
+	AddIcon /img/theme/icons/jpg.png .jpg .jpeg .jpe
+	AddIcon /img/theme/icons/js.png .js .json
+	AddIcon /img/theme/icons/markdown.png .md
+	AddIcon /img/theme/icons/package.png .pkg .dmg
+	AddIcon /img/theme/icons/pdf.png .pdf
+	AddIcon /img/theme/icons/php.png .php .phtml
+	AddIcon /img/theme/icons/playlist.png .m3u .m3u8 .pls .pls8
+	AddIcon /img/theme/icons/png.png .png
+	AddIcon /img/theme/icons/ps.png .ps
+	AddIcon /img/theme/icons/psd.png .psd
+	AddIcon /img/theme/icons/py.png .py
+	AddIcon /img/theme/icons/rar.png .rar
+	AddIcon /img/theme/icons/rb.png .rb
+	AddIcon /img/theme/icons/rpm.png .rpm
+	AddIcon /img/theme/icons/rss.png .rss
+	AddIcon /img/theme/icons/script.png .bat .cmd .sh
+	AddIcon /img/theme/icons/sql.png .sql
+	AddIcon /img/theme/icons/tiff.png .tiff .tif
+	AddIcon /img/theme/icons/text.png .txt .nfo
+	AddIcon /img/theme/icons/video.png .asf .asx .avi .flv .mkv .mov .mp4 .mpg .rm .srt .swf .vob .wmv .m4v .f4v .f4p .ogv
+	AddIcon /img/theme/icons/xml.png .xml
+	AddIcon /img/theme/icons/zip.png .zip
+	DefaultIcon /img/theme/icons/default.png
+
+# THEME FILES
+	HeaderName /img/theme/header.html
+	ReadmeName /img/theme/footer.html
+	IndexStyleSheet "/img/theme/style.css"
