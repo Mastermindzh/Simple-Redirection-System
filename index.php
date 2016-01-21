@@ -6,6 +6,6 @@
 		
 	</head>
 	<body>
-		404 - fil enot found
+		404 - file not found
 	</body>
 </html>

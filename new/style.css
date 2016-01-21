@@ -144,3 +144,63 @@ input.formFieldStyle{
 .mainFormError{
 	background-color : #ff4444;
 }
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+    text-align:center;
+}
+
+.nav-ul li {
+    float: left;
+}
+
+.nav-ul li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-ul li a:hover {
+    background-color: #AB1616;
+    color:white;
+}
+
+table {
+    border-collapse: collapse;
+    max-width:100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #AB1616;
+    color: white;
+}
+
+td.redirecturl{
+	max-width:430px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+table.dataTable tr.odd td.sorting_1 {
+	background-color: white !important;
+}
+table.dataTable tr.odd {
+	background-color: white !important;
+}
+table.dataTable tr.even td.sorting_1 {
+	background-color: white !important;
+}
