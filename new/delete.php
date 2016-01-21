@@ -46,7 +46,7 @@
 					echo '<tr>';
 						echo '<td><a href = "delete.php?del='.safeString($url).'">X</a></td>';
 						echo '<td>'.safeString($url).'</td>';
-						echo '<td class = "redirecturl">'.safeString($redirecturl).'</td>';
+						echo '<td class = "redirecturl"><a href = "'.safeString($redirecturl).'">'.safeString($redirecturl).'</a></td>';
 						
 					echo '</tr>';
 				}
